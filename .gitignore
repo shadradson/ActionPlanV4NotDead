@@ -100,3 +100,4 @@ sfdx-source/LabsActionPlans/main/default/reports/**
 **/standardValueSets
 **/Translations
 
+mdapi-output/ 
