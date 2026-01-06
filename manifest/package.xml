@@ -57,6 +57,7 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>APLightningLookup</members>
         <members>APMessage</members>
         <members>APSectionHeader</members>
         <name>ApexComponent</name>
@@ -84,8 +85,13 @@
         <name>ApexPage</name>
     </types>
     <types>
-        <members>SalesforceLabs</members>
-        <name>ContentAsset</name>
+        <members>Action_Plans</members>
+        <members>Action_Plans_Lightning</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Activity.TaskAPTask__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Weekend_Day.Friday</members>
@@ -122,10 +128,6 @@
         <name>CustomLabels</name>
     </types>
     <types>
-        <members>New_Customer_Onboarding_Actions</members>
-        <name>Flow</name>
-    </types>
-    <types>
         <members>SkipDay</members>
         <name>GlobalValueSet</name>
     </types>
@@ -135,8 +137,6 @@
         <members>APTask__c-ActionPlan Task Layout</members>
         <members>APTemplateTask__c-ActionPlanTemplate Task Layout</members>
         <members>Weekend_Day__mdt-Weekend Day Layout</members>
-        <members>Account-Account %28Action Plans%29 Layout</members>
-        <members>Task-Task ActionPlans Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -148,16 +148,25 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>ActionPlans</members>
-        <name>ReportFolder</name>
-    </types>
-    <types>
-        <members>ActionPlans/My_Action_Plan_Tasks_duY</members>
-        <name>Report</name>
-    </types>
-    <types>
         <members>ActionPlan_Resources</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account.Create_Action_Plan</members>
+        <members>Account.Create_Action_Plans</members>
+        <members>Campaign.Create_Action_Plan</members>
+        <members>Campaign.Create_Action_Plans</members>
+        <members>Case.Create_Action_Plan</members>
+        <members>Case.Create_Action_Plans</members>
+        <members>Contact.Create_Action_Plan</members>
+        <members>Contact.Create_Action_Plans</members>
+        <members>Contract.Create_Action_Plan</members>
+        <members>Contract.Create_Action_Plans</members>
+        <members>Lead.Create_Action_Plan</members>
+        <members>Lead.Create_Action_Plans</members>
+        <members>Opportunity.Create_Action_Plan</members>
+        <members>Opportunity.Create_Action_Plans</members>
+        <name>WebLink</name>
     </types>
     <version>62.0</version>
 </Package>
