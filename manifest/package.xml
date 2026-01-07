@@ -90,6 +90,10 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>WSM_LOGO_email_Stampfullcolor</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
         <members>Activity.TaskAPTask__c</members>
         <name>CustomField</name>
     </types>

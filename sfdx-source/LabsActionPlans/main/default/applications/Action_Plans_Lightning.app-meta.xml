@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
-        <headerColor>#0D9CD8</headerColor>
+        <headerColor>#036588</headerColor>
+        <logo>WSM_LOGO_email_Stampfullcolor</logo>
+        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
-    <description>App for Action Plans</description>
+    <description>Keeping Action Plans Free and Easy</description>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>Action Plans</label>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Action Plans Forever</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>Action_Plans_Home</tabs>
