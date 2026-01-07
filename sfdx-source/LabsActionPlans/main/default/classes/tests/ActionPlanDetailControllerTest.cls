@@ -37,7 +37,7 @@ private class ActionPlanDetailControllerTest {
 
 		ApexPages.currentPage().getParameters().put('id', actionPlan.Id);
 		ActionPlanDetailController apDetailController2 = new ActionPlanDetailController(new ApexPages.StandardController(actionPlan));
-		Assert.areEqual('Account', apDetailController2.getRelatedObjectLabel(), 'Incorrect Related Object Label');
+		Assert.areEqual(Schema.SObjectType.Account.getLabel(), apDetailController2.getRelatedObjectLabel(), 'Incorrect Related Object Label');
 		apDetailController2.getCanTransfer();
 		apDetailController2.getCanShare();
 		Assert.areNotEqual(null, apDetailController2.hasRecordType, 'HasRecordType should be true or false. Never null.');
@@ -168,7 +168,7 @@ private class ActionPlanDetailControllerTest {
 		ActionPlanDetailController apdc = new ActionPlanDetailController(new ApexPages.StandardController(actionPlan));
 		String recName = apdc.getrelatedRecordName();
 		Assert.areNotEqual(null, recName, 'Failed to get correct related Record Name');
-		Assert.areEqual('Account', apdc.getRelatedObjectLabel(), 'Incorrect Related Object Label');
+		Assert.areEqual(Schema.SObjectType.Account.getLabel(), apdc.getRelatedObjectLabel(), 'Incorrect Related Object Label');
 
 		actionPlan = testUtil.createNewActionPlan('campaign', 0, null);
 		ApexPages.currentPage().getParameters().put('id', actionPlan.Id);

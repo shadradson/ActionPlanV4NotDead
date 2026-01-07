@@ -263,6 +263,7 @@ public inherited sharing class ActionPlansTestUtilities {
 		Lead newLead = new Lead();
 		newLead.LastName = this.createRandomWord('ln');
 		newLead.Company = this.createRandomWord('company');
+		newLead.Phone = '5551234567';
 		//newLead.Status		= 'Open - Not Contacted';
 		//newLead.Status = [SELECT ApiName, Id, IsDefault, MasterLabel, SortOrder FROM LeadStatus WHERE IsDefault = true LIMIT 1].MasterLabel;
 

@@ -313,6 +313,7 @@ private class ActionPlansObjectTriggersTest {
 			Database.LeadConvert lc = new Database.LeadConvert();
 			lc.setDoNotCreateOpportunity(true);
 			lc.setLeadId(l.id);
+			lc.setOwnerId(UserInfo.getUserId());
 
 			LeadStatus convertStatus = [SELECT Id, MasterLabel FROM LeadStatus WHERE IsConverted = TRUE LIMIT 1];
 			lc.setConvertedStatus(convertStatus.MasterLabel);
@@ -356,6 +357,7 @@ private class ActionPlansObjectTriggersTest {
 			Database.LeadConvert lc = new Database.LeadConvert();
 			lc.setDoNotCreateOpportunity(true);
 			lc.setLeadId(l.id);
+			lc.setOwnerId(UserInfo.getUserId());
 
 			LeadStatus convertStatus = [SELECT Id, MasterLabel FROM LeadStatus WHERE IsConverted = TRUE LIMIT 1];
 			lc.setConvertedStatus(convertStatus.MasterLabel);
@@ -398,6 +400,7 @@ private class ActionPlansObjectTriggersTest {
 			Database.LeadConvert lc = new Database.LeadConvert();
 			lc.setDoNotCreateOpportunity(false);
 			lc.setLeadId(l.id);
+			lc.setOwnerId(UserInfo.getUserId());
 
 			LeadStatus convertStatus = [SELECT Id, MasterLabel FROM LeadStatus WHERE IsConverted = TRUE LIMIT 1];
 			lc.setConvertedStatus(convertStatus.MasterLabel);
