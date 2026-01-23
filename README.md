@@ -5,6 +5,14 @@
 ## [Changelog](https://github.com/SalesforceLabs/ActionPlansV4/blob/main/CHANGELOG.md)
 
 # Action Plans Installation and Setup
+## Installation
+
+### Option 1: Deploy via GitHub (Recommended)
+
+Click the button below to deploy directly to your Salesforce org:
+
+[![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com/?owner=shadradson&repo=ActionPlanV4NotDead&ref=main)
+
 
 ## Please follow installation instructions, shown on the **[Installation page](https://github.com/SalesforceLabs/ActionPlansV4/blob/main/INSTALLATION.md)**
 
